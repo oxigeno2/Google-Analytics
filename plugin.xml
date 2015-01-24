@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e107Plugin name="Google Analytics" lan="" version="0.3" date="2014-10-12" compatibility="2.0" installRequired="true" >
+	<author name="Oxigen" url="www.redoxigen.cz" />
+	<summary lan="">Google Analytics is a tracking plugin</summary>
+	<description lan="">Google Analytics is a tracking plugin that will allow users to take advantage of the latest features provided by Google Analytics</description>
+	<keywords>
+		<word>google</word>
+		<word>analytics</word>
+	</keywords>
+	<category>tools</category>
+	<copyright></copyright>
+	<adminLinks>
+		<link url="admin_config.php" description="" icon="images/icon_32.png" iconSmall="images/icon_16.png" primary="true" >LAN_CONFIGURE</link>
+	</adminLinks>
+	<pluginPrefs>
+		<pref name='gacode'>UA-XXXXX-X</pref>
+		<pref name='gadomain'>domain.com</pref>
+		<pref name='displayfeatures'>0</pref>
+		<pref name='linkid'>0</pref>
+		<pref name='gaverify'></pref>
+	</pluginPrefs>
+</e107Plugin>
